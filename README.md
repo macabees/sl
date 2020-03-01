@@ -3,13 +3,13 @@ The 'sl' (stands for Steam Locomotive) runs across your console
 
 It was create as a joke to stop people typing 'sl' instead of 'ls'.
 
-##SL (Project Info)
+## SL (Project Info)
 [Website](https://github.com/mtoyoda/sl)
 
-##Docker Hub
+## Docker Hub
 [Website](https://hub.docker.com/r/macabees/sl/)
 
-##Build image
+## Build image
 `$ docker build -t macabees/sl:latest .`
 
 ## Docker Push
@@ -17,5 +17,5 @@ It was create as a joke to stop people typing 'sl' instead of 'ls'.
 
 Note: requires `docker login`
 
-##Run image
+## Run image
 `$ docker run -it --rm macabees/sl`
