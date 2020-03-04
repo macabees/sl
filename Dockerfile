@@ -9,4 +9,5 @@ RUN apt-get -y update \
 ENV TERM=xterm-256color
 ENV PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games
 
-CMD ["sl","-a"]
+#CMD ["sl","-a"]
+ENTRYPOINT ["sl"]
